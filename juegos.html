@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="contenido">
+        <!---Barra navegaciion-->
+        <div class="navbar">
+            <div id="logoContainer"><img src="imagenes/logo4.webp" alt="Triforce Logo"></div>
+            <span class="tab"><a href="index.html">Inicio</a></span>
+            <span class="tab"><a href="juegos.html">Juegos</a></span>
+            <span class="tab"><a href="">Personajes</a></span>
+            <span class="tab"><a href="">Monstruos</a></span>
+        </div>
+
+        <!---Buscador-->
+        <div class="searchcontainer">
+            <input type="search" name="" id="searchbar" placeholder="Busca juegos...">
+        </div>
+
+        <!--Contenedor cartas-->
+        <div class="cardcontainer">
+            
+        </div>
+    
+        
+    </div>
+
+    <!--Template carta-->
+    <template id="cardTemplate">
+        <div class="card" data-indice="">
+            
+            <h3 class="nombre"></h3>
+            <div><b class="fecha"></b></div>
+            <p class="descripcion"></p>
+            
+        </div>
+    </template>
+
+    <!--Footer-->
+    <footer>
+        <div class="foot1">
+            <h2>Datos</h2>
+            Alumno: Samuel Iglesias Corral <br>
+            Asignatura: Marcas 2023/2024
+        </div>
+        <div class="foot2">
+            <h2>Créditos</h2>
+            The Legend of zelda es propiedad de Nintendo
+            <br>La imagen del fondo es de <a href="https://rajawats.com/">Surendra Rajawat</a>
+        </div>
+        <div class="foot3">
+            <h2>Escríbenos</h2>
+            <form action="">
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <textarea name="" id="" rows="3" cols="55"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+            
+        </div>
+    </footer>
+    
+</body>
+</html>

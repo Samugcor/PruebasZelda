@@ -1,0 +1,38 @@
+
+.tablainfo {
+    grid-column: 2/-1;
+    grid-row: 1/-1;
+    margin-left: auto;
+    width: 70%;
+    font-size: 14px;
+    background-color: #f2f2f26e;
+}
+th {
+    background-color: #9DC6DF;
+    padding: 2%;
+    width: 20%;
+}
+td{
+    padding-left: 2%;
+}
+.titulo {
+    background-color: #9DC6DF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+}
+.imagenTablainfo {
+    object-fit: contain;
+    
+}
+.imagenTablainfo>img{
+    margin-left: 23%;
+    width: 50%;
+}
+.header {
+    background-color: #e6e6e6;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+}
