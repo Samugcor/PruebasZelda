@@ -17,6 +17,7 @@ body{
     width: 70%;
     margin: auto;
     margin-bottom: 5%;
+    min-height: 60vh;
 }
 
 .navbar{
